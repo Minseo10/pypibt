@@ -125,6 +125,8 @@ def test_output_resume_analysis_and_pymunk_video(tmp_path):
         )
     )
     assert len(configs) == 2
+    numeric_cases = list(configurations({"cases": [{"weight": 2}, {"weight": 2.0}]}))
+    assert len(numeric_cases) == 1
     rows = [run_saved(c, tmp_path) for c in configs]
     assert run_saved(configs[0], tmp_path) == rows[0]
     write_csv(tmp_path / "summary.csv", rows)

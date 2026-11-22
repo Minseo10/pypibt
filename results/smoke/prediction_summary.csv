@@ -1,0 +1,3 @@
+map,size,width,length,barrier_size,traffic,n,horizon,forecast,replan,weight,counterflow,model,windows,seeds,spearman,low,high,zero_wait_fraction
+funnel,32,2,12,5,opposing,20,80,10,5,2.0,2.0,geometry,85,1,0.5387223072947382,nan,nan,0.788235294117647
+funnel,32,2,12,5,opposing,20,80,10,5,2.0,2.0,traffic,85,1,0.5986360094452956,nan,nan,0.788235294117647
