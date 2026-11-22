@@ -95,6 +95,12 @@ def configurations(spec):
             c = RunConfig(
                 **{**spec.get("defaults", {}), **case, **dict(zip(keys, values))}
             )
+            c = replace(
+                c,
+                fraction=float(c.fraction),
+                weight=float(c.weight),
+                counterflow=float(c.counterflow),
+            )
             if c.method == "distance" or c.fraction == 0:
                 c = replace(c, method="distance", fraction=0.0)
             key = json.dumps(asdict(c), sort_keys=True)
