@@ -1,3 +1,11 @@
+# Crowd Control study fork
+
+This fork of Kei18/pypibt implements mixed-population congestion awareness, controlled obstacle layouts, paired experiments, prediction diagnostics, and Pymunk replay.
+
+See [the study guide](docs/CROWD_STUDY.md) for setup, the routing algorithms, reproducible commands, metrics, figures, and necessary tests. Original PIBT usage and attribution are preserved below.
+
+---
+
 # pypibt
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](./LICENCE.txt)

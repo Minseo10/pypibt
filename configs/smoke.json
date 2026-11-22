@@ -1,0 +1,14 @@
+{
+  "defaults": {
+    "horizon": 80,
+    "n": 20,
+    "fraction": 0.5
+  },
+  "sweep": {
+    "method": [
+      "distance",
+      "traffic",
+      "geometry"
+    ]
+  }
+}
