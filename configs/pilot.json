@@ -1,0 +1,39 @@
+{
+  "defaults": {
+    "horizon": 500,
+    "forecast": 10,
+    "replan": 5,
+    "weight": 2,
+    "counterflow": 2,
+    "traffic": "opposing"
+  },
+  "sweep": {
+    "map": [
+      "open",
+      "funnel",
+      "barrier",
+      "walls"
+    ],
+    "n": [
+      20,
+      50,
+      100
+    ],
+    "fraction": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "method": [
+      "traffic",
+      "geometry"
+    ],
+    "seed": [
+      0,
+      1,
+      2
+    ]
+  }
+}

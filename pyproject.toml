@@ -25,6 +25,12 @@ dependencies = [
     "pytest>=7.4.0",
 ]
 
+[project.optional-dependencies]
+study = ["scipy>=1.11,<2", "pymunk>=7,<8", "imageio>=2.34,<3", "imageio-ffmpeg>=0.5,<1"]
+
+[project.scripts]
+crowd-study = "pypibt.crowd.cli:main"
+
 [project.urls]
 Homepage = "https://github.com/Kei18/pypibt"
 Repository = "https://github.com/Kei18/pypibt"

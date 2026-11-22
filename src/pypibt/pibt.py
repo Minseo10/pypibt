@@ -80,6 +80,10 @@ class PIBT:
         # used for tie-breaking
         self.rng = np.random.default_rng(seed)
 
+    def candidate_score(self, i: int, origin: Coord, target: Coord) -> float:
+        """Rank a move; subclasses may supply route costs."""
+        return float(self.dist_tables[i].get(target))
+
     def funcPIBT(self, Q_from: Config, Q_to: Config, i: int) -> bool:
         """Core PIBT function for single agent planning with priority inheritance.
 
@@ -101,7 +105,7 @@ class PIBT:
         # get candidate next vertices
         C = [Q_from[i]] + get_neighbors(self.grid, Q_from[i])
         self.rng.shuffle(C)  # tie-breaking, randomize
-        C = sorted(C, key=lambda u: self.dist_tables[i].get(u))
+        C = sorted(C, key=lambda u: self.candidate_score(i, Q_from[i], u))
 
         # vertex assignment
         for v in C:
