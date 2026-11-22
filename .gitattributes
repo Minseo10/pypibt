@@ -1,1 +1,4 @@
 **.ipynb linguist-vendored
+
+# Preserve CSV dialect line endings and artifact hashes.
+results/**/*.csv -text whitespace=cr-at-eol

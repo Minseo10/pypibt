@@ -1,0 +1,7 @@
+{
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 2026,
+  "interval_unit": "whole simulation seed",
+  "timing": "planning wall time, excludes setup and passive diagnostics",
+  "detour_population": "arrived robots only; consult group completion rates"
+}

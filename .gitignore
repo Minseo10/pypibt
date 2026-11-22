@@ -194,3 +194,6 @@ output.txt
 # Claude Code specific files
 .mcp.json
 CLAUDE.md
+
+# Published runs are stored in compressed evidence archives.
+/results/*/runs/

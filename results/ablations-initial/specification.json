@@ -1,0 +1,44 @@
+{
+  "defaults": {
+    "n": 50,
+    "fraction": 0.5
+  },
+  "cases": [
+    {
+      "forecast": 5
+    },
+    {
+      "forecast": 10
+    },
+    {
+      "forecast": 20
+    },
+    {
+      "weight": 0.5
+    },
+    {
+      "weight": 2
+    },
+    {
+      "weight": 8
+    },
+    {
+      "counterflow": 0
+    }
+  ],
+  "sweep": {
+    "map": [
+      "funnel",
+      "walls"
+    ],
+    "method": [
+      "distance",
+      "geometry"
+    ],
+    "seed": [
+      0,
+      1,
+      2
+    ]
+  }
+}

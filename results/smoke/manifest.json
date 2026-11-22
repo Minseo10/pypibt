@@ -1,0 +1,20 @@
+{
+  "run_count": 3,
+  "source_commit": "5178a6bd0dbeb9ea99f77e758ae4216b97c20be1",
+  "source_sha256": "058925c1caca73fd7dc53148bb2c7d949a37a85445d8cf41a1b061223be99799",
+  "sha256": {
+    "aggregate.csv": "551b7a2b66e437845905c5488a315df081aaa724606094f2752b96c5975c7fbd",
+    "analysis_metadata.json": "13d1a0af9771ce805443c812904b76afb7b396d64c0a57230b32dbf61932e404",
+    "figures/00-funnel-burden.png": "54f69ef7ceaea1663a26286a52fdc1f6c2cf7c585c05669898a5bb693e38c792",
+    "figures/00-funnel-performance.png": "0ca66a0e5d27832a2eb436ccb2a0c68e970a91af9132e1d0903fc7603201a886",
+    "figures/prediction-00-funnel-geometry.png": "8d8f8890e763935d77501697f1a688270d0471528500d9ff3f678e20e5ba7b2a",
+    "figures/prediction-01-funnel-traffic.png": "c6ad8b3531f98b4440241549d7f9b4ac611b5575bd5be772adb809d2856f435d",
+    "paired_differences.csv": "e9226cfb770a144ddbf8a509939dac0305cefbd2ecbfd11c1a92d820e4589300",
+    "prediction_summary.csv": "f6d74be52a7e22e54f16f761dc61685eff9310c708e5edb79bd9412823d4ff18",
+    "raw_runs.tar.gz": "df9ae53d3fbe7fc48a78058632919ffe1cecfc4cc3e818942b18dca95eef4991",
+    "specification.json": "c29c30a51db16c91c6773c2a8c0c36ff61974965bd10cfcccf9200f3684305cb",
+    "summary.csv": "e8b931300d316115134517637763316b4cd85061e89cca16ce26c55a917708d7",
+    "videos/funnel-geometry.mp4": "788aa3be476d24713d2918d870d9852297c18dcd7c2da9cd13b15999e212906f",
+    "videos/funnel-geometry.png": "861ccd747cfda5da1b273f3e2a75ffc5426d3cb1c08f1b1ac640e35701814e68"
+  }
+}

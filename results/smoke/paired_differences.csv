@@ -1,0 +1,7 @@
+map,size,width,length,barrier_size,traffic,horizon,forecast,replan,weight,counterflow,n,method,fraction,metric,paired_seeds,difference,low,high
+funnel,32,2,12,5,opposing,80,10,5,2.0,2.0,20,distance,0.0,capped_arrival,1,0.0,0.0,0.0
+funnel,32,2,12,5,opposing,80,10,5,2.0,2.0,20,distance,0.0,completion,1,0.0,0.0,0.0
+funnel,32,2,12,5,opposing,80,10,5,2.0,2.0,20,geometry,0.5,capped_arrival,1,0.04999999999999716,0.04999999999999716,0.04999999999999716
+funnel,32,2,12,5,opposing,80,10,5,2.0,2.0,20,geometry,0.5,completion,1,0.0,0.0,0.0
+funnel,32,2,12,5,opposing,80,10,5,2.0,2.0,20,traffic,0.5,capped_arrival,1,0.6499999999999986,0.6499999999999986,0.6499999999999986
+funnel,32,2,12,5,opposing,80,10,5,2.0,2.0,20,traffic,0.5,completion,1,0.0,0.0,0.0

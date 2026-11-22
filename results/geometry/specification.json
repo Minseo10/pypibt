@@ -1,0 +1,94 @@
+{
+  "defaults": {
+    "n": 50,
+    "fraction": 0.5,
+    "horizon": 500
+  },
+  "cases": [
+    {
+      "map": "funnel",
+      "width": 1
+    },
+    {
+      "map": "funnel",
+      "width": 2
+    },
+    {
+      "map": "funnel",
+      "width": 4
+    },
+    {
+      "map": "barrier",
+      "barrier_size": 3
+    },
+    {
+      "map": "barrier",
+      "barrier_size": 5
+    },
+    {
+      "map": "barrier",
+      "barrier_size": 7
+    },
+    {
+      "map": "walls",
+      "width": 1,
+      "length": 6
+    },
+    {
+      "map": "walls",
+      "width": 1,
+      "length": 12
+    },
+    {
+      "map": "walls",
+      "width": 1,
+      "length": 16
+    },
+    {
+      "map": "walls",
+      "width": 2,
+      "length": 6
+    },
+    {
+      "map": "walls",
+      "width": 2,
+      "length": 12
+    },
+    {
+      "map": "walls",
+      "width": 2,
+      "length": 16
+    },
+    {
+      "map": "walls",
+      "width": 4,
+      "length": 6
+    },
+    {
+      "map": "walls",
+      "width": 4,
+      "length": 12
+    },
+    {
+      "map": "walls",
+      "width": 4,
+      "length": 16
+    }
+  ],
+  "sweep": {
+    "method": [
+      "distance",
+      "traffic",
+      "geometry"
+    ],
+    "traffic": [
+      "one-way",
+      "opposing"
+    ],
+    "seed": [
+      0,
+      1,
+      2
+    ]
+  }
+}
